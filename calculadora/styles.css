@@ -1,0 +1,121 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+#app8g {
+    background-color: #262626;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+}
+
+#app8g form {
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+}
+
+#app8g input[type=textfield] {
+    width: 94%;
+    height: 30px;
+    cursor: default;
+    font-family: 'Roboto', sans-serif;
+    background-color: #262626;
+    color: white;
+    padding: 10px;
+    text-align: right;
+    font-size: 36px;
+    margin-bottom: 5px;
+    border: 0;
+    outline: none;
+}
+
+#app8g input[type=textfield].error {
+    color: white;
+}
+
+
+#calculation-history {
+    overflow-y: hidden;
+    background-color: #262626;
+    color: #ffffff52;
+    padding: 10px;
+    text-align: right;
+    font-size: 20px;
+    height: 307px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#app8g input[type=button] {
+    width: 22.4%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin: 3px;
+    border: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#app8g .number-button {
+    background-color: #262626;
+    color: white;
+    width: 22.4%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin: 3px;
+    border: 0;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#app8g  .operation-button {
+    background-color: #262626;
+    color: #e06112;
+    width: 22.4%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    padding: 21px;
+    margin: 3px;
+    border: 0;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#app8g .operation-buttonecuals {
+    background-color: #e06112;
+    color: white;
+    width: 22.4%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 21px;
+    margin: 3px;
+    border: 0;
+    border-radius: 50px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.buttons {
+    box-shadow: 0px -1px 0px 0px rgb(255 255 255 / 18%);
+}
+
+#app8g .number-button {
+    background-color: #262626;
+}
+
+#calculation-history::-webkit-scrollbar {
+    width: 5px;
+}
+
+#calculation-history::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#calculation-history::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+}
