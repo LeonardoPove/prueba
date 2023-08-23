@@ -44,18 +44,23 @@
                 <input type="button" value="3" class="number-button">
                 <input type="button" value="+" class="operation-button">
                 <br>
-                <button type="button" value="" class="operation-button">
-                    <i class="fa-solid fa-rotate"></i>
-                </button>
+                <button type="button" class="operation-button" id="voice-button">
+                    <i class="fa-solid fa-microphone"></i>
+                </button> 
                 <input type="button" value="0" class="number-button">
                 <input type="button" value="." class="number-button">
-                <input type="button" value="=" class="operation-buttonecuals" onclick="calculate()">
+                <input type="button" value="=" class="operation-buttonecuals" onclick="calculateWithoutSpeaking();">
 
             </div>
         </form>
     </div>
-    <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/a394d1a37f.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="script.js"></script>
+
+
 </body>
 
 </html>
